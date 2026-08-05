@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /admin/
 
-Sitemap: https://pestcontrolkochi.com/sitemap.xml
+# Optimize crawl budget by excluding tracking parameters and low-value pages
+Disallow: /*?utm_*
+Disallow: /*?ref=*
+Disallow: /*?source=*
+Disallow: /*?fbclid=*
+
+Sitemap: https://www.pestcontrolkochi.com/sitemap.xml
