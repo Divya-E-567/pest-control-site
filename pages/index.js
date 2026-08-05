@@ -11,7 +11,12 @@ export default function HomePage({ pageData }) {
         description={pageData.description}
         canonical={pageData.canonical}
         keywords={pageData.keywords}
+        ogTitle={pageData.ogTitle}
+        ogDescription={pageData.ogDescription}
         ogImage={pageData.ogImage}
+        ogType={pageData.ogType}
+        twitterCard={pageData.twitterCard}
+        robots={pageData.robots}
       />
       <SchemaMarkup pageType="homepage" data={{ faqs: pageData.faqs || [] }} />
 
@@ -19,8 +24,8 @@ export default function HomePage({ pageData }) {
         <section className="hero-section">
           <div className="hero-copy">
             <p className="eyebrow">Eco Pest India - Kochi's trusted pest control partner</p>
-            <h1>Best Pest Control Services in Kochi, Kerala</h1>
-            <p className="hero-text">Professional, eco-friendly pest control for termite, cockroach, rodent, mosquito, bed bug, and general infestation management with 25+ years of local experience.</p>
+            <h1>{pageData.h1 || 'Best Pest Control Services in Kochi, Kerala'}</h1>
+            <p className="hero-text">Professional, eco-friendly pest control for termite, cockroach, rodent, mosquito, bed bug, and general infestation management with 29+ years of local experience.</p>
             <div className="hero-actions">
               <Link href="/pest-control-kochi"><a className="btn btn-primary">Explore Kochi Pest Control</a></Link>
               <Link href="/contact"><a className="btn btn-secondary">Contact Our Team</a></Link>

@@ -19,14 +19,26 @@ export default function PestControlKochi({ pageData }) {
         description={pageData.description}
         canonical={pageData.canonical}
         keywords={pageData.keywords}
+        ogTitle={pageData.ogTitle}
+        ogDescription={pageData.ogDescription}
         ogImage={pageData.ogImage}
+        ogType={pageData.ogType}
+        twitterCard={pageData.twitterCard}
+        robots={pageData.robots}
       />
       <SchemaMarkup pageType="service" data={{ serviceName: 'Pest Control Kochi', serviceDescription: pageData.description, faqs }} />
       <Breadcrumb
-        items={[
-          { name: 'Home', url: '/' },
-          { name: 'Pest Control Kochi', url: '/pest-control-kochi' },
-        ]}
+        items={
+          pageData.breadcrumb?.length > 0
+            ? pageData.breadcrumb.map((name, index) => ({
+                name,
+                url: index === 0 ? '/' : pageData.canonical
+              }))
+            : [
+                { name: 'Home', url: '/' },
+                { name: 'Pest Control Kochi', url: '/pest-control-kochi/' }
+              ]
+        }
       />
 
       <main className="page-shell">
