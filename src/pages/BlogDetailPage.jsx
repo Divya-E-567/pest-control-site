@@ -18,7 +18,7 @@ function BlogDetailPage() {
       heroText={blog.intro}
       breadcrumbs={[{ label: 'Blog', to: '/blog' }, { label: blog.title }]}
       faqItems={blog.faqs}
-      canonical={`https://pestcontrolkochi.com/blog/${blog.slug}`}
+      canonical={`https://www.pestcontrolkochi.com/blog/${blog.slug}`}
       heroImage={`${process.env.PUBLIC_URL}/images/27.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/24.jpeg`}
     >

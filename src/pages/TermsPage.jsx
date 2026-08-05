@@ -7,6 +7,7 @@ function TermsPage() {
       description="Read the terms of service, bookings, and warranty terms for Eco Pest India services."
       heroTitle="Terms & Conditions"
       heroText="By scheduling services with Eco Pest India, you agree to our service procedures, scheduling terms, and warranties."
+      canonical="https://www.pestcontrolkochi.com/terms"
     >
       <div className="content-panel" style={{ background: '#fff', padding: '40px', borderRadius: '24px', border: '1px solid rgba(220, 239, 227, 0.5)', boxShadow: '0 8px 30px rgba(0,0,0,0.01)' }}>
         <h2>1. Services & Inspections</h2>

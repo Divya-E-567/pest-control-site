@@ -101,9 +101,9 @@ function HomePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Eco Pest India",
-    "image": "https://pestcontrolkochi.com/images/1.jpeg",
-    "@id": "https://pestcontrolkochi.com/#localbusiness",
-    "url": "https://pestcontrolkochi.com/",
+    "image": "https://www.pestcontrolkochi.com/images/1.jpeg",
+    "@id": "https://www.pestcontrolkochi.com/#localbusiness",
+    "url": "https://www.pestcontrolkochi.com/",
     "telephone": "+919020040009",
     "priceRange": "₹₹",
     "address": {
@@ -140,7 +140,7 @@ function HomePage() {
       <SEOHead 
         title="Best Pest Control in Kochi - #1 Rated Company" 
         description="High-converting, certified pest control services. Safe termite treatments, cockroach control, rodent, bed bugs, and outdoor mosquito fogging." 
-        canonical="https://pestcontrolkochi.com/" 
+        canonical="https://www.pestcontrolkochi.com/" 
         schema={localBusinessSchema} 
       />
       

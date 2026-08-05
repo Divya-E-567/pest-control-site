@@ -57,7 +57,7 @@ function MosquitoControlKochiPage() {
     setFormData({ name: '', phone: '', location: 'Kochi', pestType: 'Mosquito Control', message: '' });
   };
 
-  const SITE_URL = 'https://pestcontrolkochi.com';
+  const SITE_URL = 'https://www.pestcontrolkochi.com';
 
   const faqData = [
     {

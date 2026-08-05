@@ -9,7 +9,7 @@ function AboutPage() {
       heroText="We are a premier local pest management company helping families and businesses across Kerala stay protected with safe, warranty-backed, and transparent services."
       breadcrumbs={[{ label: 'About' }]}
       faqItems={[]}
-      canonical="https://pestcontrolkochi.com/about"
+      canonical="https://www.pestcontrolkochi.com/about"
       heroImage={`${process.env.PUBLIC_URL}/images/24.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/23.jpeg`}
     >

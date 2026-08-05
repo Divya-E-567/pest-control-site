@@ -53,7 +53,7 @@ function ContactPage() {
       heroText="We are ready to help with inspections, service bookings, quotes, and emergency pest support across Kerala."
       breadcrumbs={[{ label: 'Contact' }]}
       faqItems={[]}
-      canonical="https://pestcontrolkochi.com/contact"
+      canonical="https://www.pestcontrolkochi.com/contact"
       heroImage={`${process.env.PUBLIC_URL}/images/27.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/24.jpeg`}
     >

@@ -10,7 +10,7 @@ function LocationsPage() {
       heroTitle="Our Service Locations"
       heroText="We serve homes and businesses across Kochi, Ernakulam, Kakkanad, Edappally, Kaloor, Aluva, Angamaly, Tripunithura, Vyttila, Marine Drive, Fort Kochi, Mattancherry, Palarivattom, Kalamassery, Perumbavoor, North Paravur, Muvattupuzha, Kadavanthra, Panampilly Nagar, Maradu, Thrikkakara, Chottanikkara, Piravom, and all major surrounding zones."
       breadcrumbs={[{ label: 'Locations' }]}
-      canonical="https://pestcontrolkochi.com/locations"
+      canonical="https://www.pestcontrolkochi.com/locations"
       heroImage={`${process.env.PUBLIC_URL}/images/24.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/23.jpeg`}
     >

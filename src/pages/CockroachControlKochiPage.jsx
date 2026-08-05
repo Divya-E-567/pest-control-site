@@ -59,7 +59,7 @@ function CockroachControlKochiPage() {
     setFormData({ name: '', phone: '', location: 'Kochi', pestType: 'Cockroach Control', message: '' });
   };
 
-  const SITE_URL = 'https://pestcontrolkochi.com';
+  const SITE_URL = 'https://www.pestcontrolkochi.com';
 
   const faqData = [
     {

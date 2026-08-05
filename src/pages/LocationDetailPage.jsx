@@ -63,7 +63,7 @@ function LocationDetailPage() {
       heroText={location.intro}
       breadcrumbs={[{ label: 'Locations', to: '/locations' }, { label: location.name }]}
       faqItems={location.faq}
-      canonical={`https://pestcontrolkochi.com/locations/${location.slug}`}
+      canonical={`https://www.pestcontrolkochi.com/locations/${location.slug}`}
       schema={schema}
       heroImage={heroImageMap[location.slug] ?? `${process.env.PUBLIC_URL}/images/27.webp`}
       sideImage={`${process.env.PUBLIC_URL}/images/23.webp`}

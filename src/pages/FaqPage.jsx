@@ -10,7 +10,7 @@ function FaqPage() {
       heroText="Get clear answers to questions about pest control costs, safety, treatment duration, and what to expect from the service."
       breadcrumbs={[{ label: 'FAQ' }]}
       faqItems={homeFaqs}
-      canonical="https://pestcontrolkochi.com/faq"
+      canonical="https://www.pestcontrolkochi.com/faq"
       heroImage={`${process.env.PUBLIC_URL}/images/23.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/22.jpeg`}
     >

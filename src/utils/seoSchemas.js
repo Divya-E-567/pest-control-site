@@ -1,4 +1,4 @@
-const SITE_URL = 'https://pestcontrolkochi.com';
+const SITE_URL = 'https://www.pestcontrolkochi.com';
 const BUSINESS_NAME = 'Eco Pest India';
 
 const organizationSchema = {

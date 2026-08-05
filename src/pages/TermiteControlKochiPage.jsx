@@ -59,7 +59,7 @@ function TermiteControlKochiPage() {
     setFormData({ name: '', phone: '', location: 'Kochi', pestType: 'Termite Control', message: '' });
   };
 
-  const SITE_URL = 'https://pestcontrolkochi.com';
+  const SITE_URL = 'https://www.pestcontrolkochi.com';
 
   const faqData = [
     { q: "What is the Drill-Fill-Seal termite treatment method?", a: "This is the industry standard for post-construction termite control. We drill 12mm holes at 30cm intervals along skirting joints, inject a termiticide (like Fipronil) under pressure to treat the underlying soil, and seal with cement." },

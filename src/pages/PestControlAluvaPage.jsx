@@ -62,7 +62,7 @@ function PestControlAluvaPage() {
   };
 
   // Structured schemas
-  const SITE_URL = 'https://pestcontrolkochi.com';
+  const SITE_URL = 'https://www.pestcontrolkochi.com';
   
   // Define 52 FAQs array
   const faqData = [
@@ -374,7 +374,7 @@ function PestControlAluvaPage() {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       'itemListElement': [
-        { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://pestcontrolkochi.com/' },
+        { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.pestcontrolkochi.com/' },
         { '@type': 'ListItem', 'position': 2, 'name': 'Pest Control Aluva', 'item': `${SITE_URL}/pest-control-aluva` },
       ],
     },

@@ -7,6 +7,7 @@ function PrivacyPage() {
       description="Eco Pest India values your privacy. Read our policy regarding data collection, form bookings, and contact details."
       heroTitle="Privacy Policy"
       heroText="We are committed to protecting the privacy of our clients and visitors. Learn how we handle your booking details."
+      canonical="https://www.pestcontrolkochi.com/privacy"
     >
       <div className="content-panel" style={{ background: '#fff', padding: '40px', borderRadius: '24px', border: '1px solid rgba(220, 239, 227, 0.5)', boxShadow: '0 8px 30px rgba(0,0,0,0.01)' }}>
         <h2>1. Information We Collect</h2>

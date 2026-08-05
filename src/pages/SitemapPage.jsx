@@ -29,7 +29,7 @@ function SitemapPage() {
       heroText="Browse our comprehensive website directory to find our services, local area pages, and informative pest prevention blogs."
       breadcrumbs={[{ label: 'Sitemap' }]}
       faqItems={[]}
-      canonical="https://pestcontrolkochi.com/sitemap"
+      canonical="https://www.pestcontrolkochi.com/sitemap"
       heroImage={`${process.env.PUBLIC_URL}/images/26.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/23.webp`}
     >

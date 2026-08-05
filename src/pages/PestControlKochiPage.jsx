@@ -101,10 +101,22 @@ function PestControlKochiPage() {
   };
 
   // Structured schemas
-  const SITE_URL = 'https://pestcontrolkochi.com';
+  const SITE_URL = 'https://www.pestcontrolkochi.com';
   
   // Define 52 FAQs array
   const faqData = [
+    {
+      q: 'How much is the pest control cost in Kochi?',
+      a: 'Pest control in Kochi starts at ₹999 for residential general pest control and ₹2,999 for termite treatment. Final price depends on the property size, pest type, and service frequency verified during the free inspection.'
+    },
+    {
+      q: 'Which is the best termite control in Ernakulam?',
+      a: 'For Ernakulam homes and villas, a professional Drill-Fill-Seal termite barrier is the most trusted approach. It creates a chemical soil barrier around the structure and is backed by a written warranty for long-term protection.'
+    },
+    {
+      q: 'Is pest control safe for babies and pets?',
+      a: 'Yes. We use odorless, low-toxicity, child-safe and pet-safe treatment options where possible, and we provide clear preparation guidance before service to keep infants, children, and pets safe.'
+    },
     {
       q: 'What is structural pest control?',
       a: 'Structural pest control refers to the specialized management, control, and elimination of household pests—including termites, cockroaches, wood borers, rodents, and ants—that infest and destroy physical buildings, foundations, furniture, and indoor living environments.'
@@ -385,6 +397,29 @@ function PestControlKochiPage() {
     },
     {
       '@context': 'https://schema.org',
+      '@type': 'PestControlService',
+      'serviceType': 'Pest Control',
+      'areaServed': [
+        { '@type': 'City', 'name': 'Kochi' },
+        { '@type': 'AdministrativeArea', 'name': 'Ernakulam' }
+      ],
+      'provider': {
+        '@type': 'LocalBusiness',
+        'name': 'Eco Pest India',
+        'address': {
+          '@type': 'PostalAddress',
+          'addressLocality': 'Kochi',
+          'addressRegion': 'Kerala'
+        }
+      },
+      'aggregateRating': {
+        '@type': 'AggregateRating',
+        'ratingValue': '4.9',
+        'reviewCount': '150'
+      }
+    },
+    {
+      '@context': 'https://schema.org',
       '@type': 'Service',
       '@id': `${SITE_URL}/pest-control-kochi#service`,
       'serviceType': 'Pest Control Services in Kochi',
@@ -414,7 +449,7 @@ function PestControlKochiPage() {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       'itemListElement': [
-        { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://pestcontrolkochi.com/' },
+        { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.pestcontrolkochi.com/' },
         { '@type': 'ListItem', 'position': 2, 'name': 'Pest Control Kochi', 'item': `${SITE_URL}/pest-control-kochi` },
       ],
     },
@@ -480,7 +515,7 @@ function PestControlKochiPage() {
   return (
     <div className="kochi-lp">
       <SEOHead
-        title="Professional Pest Control Kochi - Residential & Commercial"
+        title="#1 Professional Pest Control in Kochi | Safe & Guaranteed Ernakulam Services"
         description="Audited & highly optimized professional pest control services in Kochi & Ernakulam. Safely protect residential, commercial & industrial sites from termites, rodents, cockroaches & bed bugs. Same-day inspection."
         canonical={`${SITE_URL}/pest-control-kochi`}
         schema={mainSchemas}
@@ -493,7 +528,7 @@ function PestControlKochiPage() {
         <div className="lp-hero-grid">
           <div className="lp-hero-content animated">
             <span className="lp-eyebrow">★ #1 Rated Pest Control Service Kochi</span>
-            <h1>Professional Pest Control Services in <span>Kochi</span> – Residential & Commercial</h1>
+            <h1>#1 Professional Pest Control in Kochi | Safe & Guaranteed Ernakulam Services</h1>
             <p className="lp-hero-text">
               Defend your home, villa, apartment, or commercial office from termites, rodents, cockroaches, bed bugs, and mosquitoes. We use WHO-approved, odorless green-label chemicals safe for children and domestic pets.
             </p>
@@ -606,6 +641,35 @@ function PestControlKochiPage() {
         </div>
       </header>
 
+      {/* Service Areas - GEO/AEO Section */}
+      <section className="kochi-lp-section" style={{ background: '#f8fafc', padding: '40px 0' }}>
+        <div className="kochi-lp-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '24px' }}>
+            <span className="lp-eyebrow">Service Areas</span>
+            <h2 className="lp-h2">Hyper-Local Pest Control Coverage in Kochi</h2>
+            <p className="lp-subtitle">Targeted protection for the neighborhoods Google now associates with high-intent local searches.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }}>
+            <div style={{ background: '#ffffff', padding: '20px', borderRadius: '14px', borderLeft: '4px solid var(--primary-green)', boxShadow: '0 4px 20px rgba(0,0,0,0.04)' }}>
+              <h3 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>Kakkanad</h3>
+              <p style={{ margin: 0, color: '#57708b', lineHeight: '1.6' }}>Infopark and residential high-rises face recurring cockroach pressure from humid utility rooms and food handling areas. We provide odorless gel baiting and service-safe treatment plans.</p>
+            </div>
+            <div style={{ background: '#ffffff', padding: '20px', borderRadius: '14px', borderLeft: '4px solid var(--primary-green)', boxShadow: '0 4px 20px rgba(0,0,0,0.04)' }}>
+              <h3 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>Edappally & Palarivattom</h3>
+              <p style={{ margin: 0, color: '#57708b', lineHeight: '1.6' }}>Busy apartments and shopping corridors in Edappally and Palarivattom are vulnerable to bed bug movement and surface-level infestation. Our steam and barrier solutions are designed for fast urban turnover.</p>
+            </div>
+            <div style={{ background: '#ffffff', padding: '20px', borderRadius: '14px', borderLeft: '4px solid var(--primary-green)', boxShadow: '0 4px 20px rgba(0,0,0,0.04)' }}>
+              <h3 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>Vyttila & Aluva</h3>
+              <p style={{ margin: 0, color: '#57708b', lineHeight: '1.6' }}>Flood-exposed zones in Vyttila and Aluva often develop post-monsoon pest surges. Our post-rain treatment protocols focus on mosquito breeding control, rodent exclusion, and moisture-driven insect management.</p>
+            </div>
+            <div style={{ background: '#ffffff', padding: '20px', borderRadius: '14px', borderLeft: '4px solid var(--primary-green)', boxShadow: '0 4px 20px rgba(0,0,0,0.04)' }}>
+              <h3 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>Thrippunithura & Maradu</h3>
+              <p style={{ margin: 0, color: '#57708b', lineHeight: '1.6' }}>Older villas and premium properties in Thrippunithura and Maradu need termite monitoring, wood-borer protection, and structural maintenance checks to prevent recurring damage.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* GEO/AEO Key Takeaways Summary Box */}
       <section className="kochi-lp-section" style={{ background: '#f0fdf4', padding: '30px 0', borderTop: '2px solid #bbf7d0', borderBottom: '2px solid #bbf7d0' }}>
         <div className="kochi-lp-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
@@ -616,36 +680,37 @@ function PestControlKochiPage() {
             <ul style={{ margin: 0, paddingLeft: '20px', color: '#1e3a1e', fontSize: '0.96rem', lineHeight: '1.7', display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <li><strong>Why Eco Pest India Beats Competitors:</strong> Unlike multinational brands that use standard templates, Eco Pest India leverages 29+ years of local Ernakulam entomology experience, local riverbank pest knowledge, and highly customized structural barriers.</li>
               <li><strong>Absolute Pricing Transparency:</strong> We offer clear, upfront pricing starting from ₹999 for apartments, with zero hidden costs or high corporate markups.</li>
-              <li><strong>Safety & Certifications:</strong> We strictly deploy 100% CIBRC-registered green-label chemical agents and odorless gels that are completely child-safe, pet-safe, and WHO-approved.</li>
+              <li><strong>Safety & Certifications:</strong> We strictly deploy CIBRC-registered green-label chemical agents and odorless gels that are child-safe, pet-safe, and WHO-approved where relevant.</li>
               <li><strong>Warranty-Backed Protection:</strong> All treatments include documented support plans—ranging from standard follow-ups to up to 5 full years for subterranean termite soil injection barriers.</li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* What to Do Next Section */}
+      {/* EEAT Process Section */}
       <section className="kochi-lp-section" style={{ background: '#fff', padding: '40px 0', borderBottom: '1px solid #e2e8f0' }}>
         <div className="kochi-lp-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
           <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '30px' }}>
-            <span className="lp-eyebrow">Exclusion Guide</span>
-            <h2 className="lp-h2" style={{ margin: '5px 0' }}>What to Do Next</h2>
-            <p className="lp-subtitle" style={{ margin: 0 }}>Follow these three simple steps to secure your property from pests.</p>
+            <span className="lp-eyebrow">EEAT & Trust</span>
+            <h2 className="lp-h2" style={{ margin: '5px 0' }}>Inspection → Custom Treatment → Safety Audit → After-Service Warranty</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>Our 4-step professional process is built for measurable, document-backed results in Kochi homes and businesses.</p>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '30px', marginTop: '20px' }}>
-            <div style={{ background: '#f8fafc', padding: '24px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
-              <div style={{ background: 'var(--primary-green)', color: '#fff', width: '32px', height: '32px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', marginBottom: '12px' }}>1</div>
-              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a', fontSize: '1.1rem' }}>Request a Free Site Audit</h4>
-              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>Call us or click "Request WhatsApp Quote". We will coordinate a convenient time for our Kochi entomologists to inspect your property.</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '20px', marginTop: '20px' }}>
+            <div style={{ background: '#f8fafc', padding: '22px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
+              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>1. Inspection</h4>
+              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>We inspect foundations, wall joints, drainage routes, moisture points, and structural entry paths to identify the exact pest source.</p>
             </div>
-            <div style={{ background: '#f8fafc', padding: '24px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
-              <div style={{ background: 'var(--primary-green)', color: '#fff', width: '32px', height: '32px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', marginBottom: '12px' }}>2</div>
-              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a', fontSize: '1.1rem' }}>Review the Custom Quote</h4>
-              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>We provide a precise, transparent cost range tailored to your building size, pest type, and chosen service frequency.</p>
+            <div style={{ background: '#f8fafc', padding: '22px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
+              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>2. Custom Treatment</h4>
+              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>Treatment is customized to the pest biology, structure type, and risk profile of each property, from odorless cockroach gels to soil barriers for termites.</p>
             </div>
-            <div style={{ background: '#f8fafc', padding: '24px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
-              <div style={{ background: 'var(--primary-green)', color: '#fff', width: '32px', height: '32px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', marginBottom: '12px' }}>3</div>
-              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a', fontSize: '1.1rem' }}>Eradicate & Enjoy Safety</h4>
-              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>Our certified operators execute odorless treatments, block entry conduits, and hand you a written warranty document.</p>
+            <div style={{ background: '#f8fafc', padding: '22px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
+              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>3. Safety Audit</h4>
+              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>We review the application area for safety, child-pet handling, ventilation, and post-service readiness before we leave the site.</p>
+            </div>
+            <div style={{ background: '#f8fafc', padding: '22px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
+              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>4. Warranty</h4>
+              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>We provide documented warranty and AMC guidance so you know exactly what protection your treatment includes after service.</p>
             </div>
           </div>
         </div>
@@ -1368,7 +1433,7 @@ function PestControlKochiPage() {
           {/* Termite Profile */}
           <div className="pest-profile-section">
             <div className="pest-profile-image">
-              <img src={`${process.env.PUBLIC_URL}/images/anti-termite-treatment-kochi.jpeg`} alt="Wood termite infestation inspection and chemical barrier treatment" />
+              <img src={`${process.env.PUBLIC_URL}/images/anti-termite-treatment-kochi.jpeg`} alt="Termite treatment in Kochi villa" />
             </div>
             <div className="pest-profile-info">
               <span className="lp-eyebrow" style={{ color: 'var(--accent-gold)', background: 'rgba(255,209,102,0.1)' }}>5-Year Written Warranty</span>
@@ -1463,7 +1528,7 @@ function PestControlKochiPage() {
           {/* Bed Bug Profile */}
           <div className="pest-profile-section">
             <div className="pest-profile-image">
-              <img src={`${process.env.PUBLIC_URL}/images/bed-bug-steam-treatment-kochi.jpeg`} alt="Bed bug steam and spray treatment on mattress seam" />
+              <img src={`${process.env.PUBLIC_URL}/images/bed-bug-steam-treatment-kochi.jpeg`} alt="Bed bug control service Ernakulam" />
             </div>
             <div className="pest-profile-info">
               <span className="lp-eyebrow" style={{ color: 'var(--accent-gold)', background: 'rgba(255,209,102,0.1)' }}>Thermal Steam</span>

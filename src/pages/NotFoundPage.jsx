@@ -10,7 +10,7 @@ function NotFoundPage() {
       heroText="The page you requested is not available. Please return home or browse our pest control services."
       breadcrumbs={[{ label: '404' }]}
       faqItems={[]}
-      canonical="https://pestcontrolkochi.com/404"
+      canonical="https://www.pestcontrolkochi.com/404"
       heroImage={`${process.env.PUBLIC_URL}/images/23.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/24.jpeg`}
     >

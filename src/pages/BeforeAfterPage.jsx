@@ -29,6 +29,7 @@ function BeforeAfterPage() {
       description="See actual case studies and real project photos showing before and after comparisons of termite, cockroach, and commercial pest control services in Kochi."
       heroTitle="Proven Results, Real Comparisons"
       heroText="Slide the gold divider to inspect our work. We deliver permanent, certified treatments for homes and businesses."
+      canonical="https://www.pestcontrolkochi.com/before-after"
     >
       <div className="content-grid" style={{ gap: '60px', marginTop: '20px' }}>
         {slides.map((slide) => (

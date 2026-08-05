@@ -101,7 +101,7 @@ function ServiceDetailPage() {
       heroText={service.heroText}
       breadcrumbs={[{ label: 'Services', to: '/services' }, { label: service.title }]}
       faqItems={service.faq}
-      canonical={`https://pestcontrolkochi.com/services/${service.slug}`}
+      canonical={`https://www.pestcontrolkochi.com/services/${service.slug}`}
       schema={schema}
       heroImage={heroImageMap[service.slug] ?? `${process.env.PUBLIC_URL}/images/27.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/23.webp`}

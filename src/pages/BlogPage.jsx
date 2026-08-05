@@ -10,7 +10,7 @@ function BlogPage() {
       heroTitle="Helpful pest control guides for Kerala homeowners & business owners"
       heroText="Our blog covers termite treatment, cockroach removal, mosquito prevention, bed bug control, commercial pest control, monsoon pests, and more."
       breadcrumbs={[{ label: 'Blog' }]}
-      canonical="https://pestcontrolkochi.com/blog"
+      canonical="https://www.pestcontrolkochi.com/blog"
       heroImage={`${process.env.PUBLIC_URL}/images/24.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/23.jpeg`}
     >

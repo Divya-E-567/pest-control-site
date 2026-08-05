@@ -57,7 +57,7 @@ function PestControlEdappallyPage() {
     setFormData({ name: '', phone: '', location: 'Edappally', pestType: 'General Pest Control', message: '' });
   };
 
-  const SITE_URL = 'https://pestcontrolkochi.com';
+  const SITE_URL = 'https://www.pestcontrolkochi.com';
 
   const faqData = [
     {

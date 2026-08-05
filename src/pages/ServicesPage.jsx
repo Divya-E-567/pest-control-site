@@ -10,7 +10,7 @@ function ServicesPage() {
       heroTitle="Professional Pest Control Services"
       heroText="From general pest control to termite control, cockroach control, rodent control, bed bug control, spider control, lizard control, and wood borer treatment, we provide complete protection for homes and businesses."
       breadcrumbs={[{ label: 'Services' }]}
-      canonical="https://pestcontrolkochi.com/services"
+      canonical="https://www.pestcontrolkochi.com/services"
       heroImage={`${process.env.PUBLIC_URL}/images/24.jpeg`}
       sideImage={`${process.env.PUBLIC_URL}/images/23.jpeg`}
     >

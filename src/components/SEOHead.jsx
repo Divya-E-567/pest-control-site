@@ -1,60 +1,19 @@
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { getImageObjectSchema, getImageSeoData } from '../utils/imageSeo';
 
+const DEFAULT_TITLE = 'Eco Pest India | Best Pest Control in Kochi, Ernakulam & Kerala';
+const DEFAULT_DESCRIPTION = 'Professional pest control in Kochi, Ernakulam and Kerala for homes, offices, restaurants, schools and warehouses.';
+const DEFAULT_CANONICAL = 'https://www.pestcontrolkochi.com';
+const DEFAULT_IMAGE = 'https://www.pestcontrolkochi.com/images/1.jpeg';
+
 function SEOHead({ title, description, canonical, schema }) {
+  const pageTitle = title || DEFAULT_TITLE;
+  const pageDescription = description || DEFAULT_DESCRIPTION;
+  const pageCanonical = canonical || DEFAULT_CANONICAL;
+  const schemas = Array.isArray(schema) ? schema : [schema].filter(Boolean);
+
   useEffect(() => {
-    document.title = title || 'Eco Pest India | Best Pest Control in Kochi, Ernakulam & Kerala';
-
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute(
-        'content',
-        description || 'Professional pest control in Kochi, Ernakulam and Kerala for homes, offices, restaurants, schools and warehouses.'
-      );
-    }
-
-    const authorMeta = document.querySelector('meta[name="author"]');
-    if (authorMeta) {
-      authorMeta.setAttribute('content', 'Eco Pest India Technical Team');
-    } else {
-      const authorTag = document.createElement('meta');
-      authorTag.setAttribute('name', 'author');
-      authorTag.setAttribute('content', 'Eco Pest India Technical Team');
-      document.head.appendChild(authorTag);
-    }
-
-    const robotsMeta = document.querySelector('meta[name="robots"]');
-    if (robotsMeta) {
-      robotsMeta.setAttribute('content', 'index,follow');
-    } else {
-      const robotsTag = document.createElement('meta');
-      robotsTag.setAttribute('name', 'robots');
-      robotsTag.setAttribute('content', 'index,follow');
-      document.head.appendChild(robotsTag);
-    }
-
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    const ogUrl = document.querySelector('meta[property="og:url"]');
-    const twitterTitle = document.querySelector('meta[name="twitter:title"]');
-    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
-
-    if (ogTitle) ogTitle.setAttribute('content', title || 'Eco Pest India | Best Pest Control in Kochi, Ernakulam & Kerala');
-    if (ogDescription) ogDescription.setAttribute('content', description || 'Professional pest control in Kochi, Ernakulam and Kerala for homes, offices, restaurants, schools and warehouses.');
-    if (ogUrl && canonical) ogUrl.setAttribute('content', canonical);
-    if (twitterTitle) twitterTitle.setAttribute('content', title || 'Eco Pest India | Best Pest Control in Kochi, Ernakulam & Kerala');
-    if (twitterDescription) twitterDescription.setAttribute('content', description || 'Professional pest control in Kochi, Ernakulam and Kerala for homes, offices, restaurants, schools and warehouses.');
-
-    let canonicalLink = document.querySelector('link[rel="canonical"]');
-    if (!canonicalLink) {
-      canonicalLink = document.createElement('link');
-      canonicalLink.setAttribute('rel', 'canonical');
-      document.head.appendChild(canonicalLink);
-    }
-    if (canonical) {
-      canonicalLink.setAttribute('href', canonical);
-    }
-
     document.querySelectorAll('img').forEach((img) => {
       const seo = getImageSeoData(img.getAttribute('src') || '');
       if (!seo) return;
@@ -82,9 +41,6 @@ function SEOHead({ title, description, canonical, schema }) {
       if (!img.hasAttribute('decoding')) {
         img.setAttribute('decoding', 'async');
       }
-
-      // Preserve the original rendered image source on the page.
-      // Image SEO metadata is injected without rewriting the actual src.
     });
 
     const existingSchema = document.getElementById('app-schema');
@@ -92,7 +48,6 @@ function SEOHead({ title, description, canonical, schema }) {
       existingSchema.remove();
     }
 
-    const schemas = Array.isArray(schema) ? schema : [schema].filter(Boolean);
     const imageSchemas = Array.from(document.querySelectorAll('img'))
       .map((img) => getImageObjectSchema(img.getAttribute('src') || ''))
       .filter(Boolean);
@@ -105,9 +60,39 @@ function SEOHead({ title, description, canonical, schema }) {
       script.textContent = JSON.stringify(allSchemas.length === 1 ? allSchemas[0] : allSchemas);
       document.head.appendChild(script);
     }
-  }, [title, description, canonical, schema]);
+  }, [schemas, title, description, canonical]);
 
-  return null;
+  return (
+    <Helmet>
+      <title>{pageTitle}</title>
+      <meta name="description" content={pageDescription} />
+      <meta name="author" content="Eco Pest India Technical Team" />
+      <meta name="robots" content="index,follow,max-image-preview:large" />
+      <meta name="geo.region" content="IN-KL" />
+      <meta name="geo.placename" content="Kochi, Ernakulam, Kerala" />
+      <meta name="geo.position" content="9.9723;76.3216" />
+      <meta name="ICBM" content="9.9723, 76.3216" />
+      <meta name="language" content="en-IN" />
+      <meta name="theme-color" content="#0f8d59" />
+      <meta property="og:title" content={pageTitle} />
+      <meta property="og:description" content={pageDescription} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={pageCanonical} />
+      <meta property="og:image" content={DEFAULT_IMAGE} />
+      <meta property="og:locale" content="en_IN" />
+      <meta property="og:image:alt" content="Eco Pest India pest control services in Kochi" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={pageTitle} />
+      <meta name="twitter:description" content={pageDescription} />
+      <meta name="twitter:image" content={DEFAULT_IMAGE} />
+      <link rel="canonical" href={pageCanonical} />
+      {schemas.length > 0 && (
+        <script type="application/ld+json">
+          {JSON.stringify(schemas.length === 1 ? schemas[0] : schemas)}
+        </script>
+      )}
+    </Helmet>
+  );
 }
 
 export default SEOHead;
