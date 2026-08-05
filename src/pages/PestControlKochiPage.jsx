@@ -194,6 +194,18 @@ function PestControlKochiPage() {
       a: 'We drill 12mm holes at 30cm intervals along wall joints, inject termiticide under pressure to form an underground barrier, and seal the holes with matched white cement.'
     },
     {
+      q: 'How long does the termite treatment last?',
+      a: 'Our pre-construction termite soil barrier is designed to protect your structure for up to 10 years, while post-construction Drill-Fill-Seal treatments are engineered to deliver 5 to 10 years of active protection depending on the site and warranty scope.'
+    },
+    {
+      q: 'Is the termite treatment safe for pets?',
+      a: 'Yes. We use odorless, low-toxicity, WHO-approved termiticides and follow strict application protocols so treated homes remain safe for children and pets after proper ventilation.'
+    },
+    {
+      q: 'What is the difference between pre-construction and post-construction termite treatment?',
+      a: 'Pre-construction treatment creates a protective soil barrier before the foundation is poured. Post-construction treatment uses precision drilling and injection of termiticides into existing wall and floor joints to eliminate active infestations without major demolition.'
+    },
+    {
       q: 'How does a chemical barrier protect against termites?',
       a: 'It treats the soil surrounding the foundation. Termites that pass through the treated soil carry the chemical back to the nest, eliminating the colony.'
     },
@@ -687,30 +699,227 @@ function PestControlKochiPage() {
         </div>
       </section>
 
-      {/* EEAT Process Section */}
+      {/* Professional Treatment Process */}
       <section className="kochi-lp-section" style={{ background: '#fff', padding: '40px 0', borderBottom: '1px solid #e2e8f0' }}>
         <div className="kochi-lp-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
           <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '30px' }}>
-            <span className="lp-eyebrow">EEAT & Trust</span>
-            <h2 className="lp-h2" style={{ margin: '5px 0' }}>Inspection → Custom Treatment → Safety Audit → After-Service Warranty</h2>
-            <p className="lp-subtitle" style={{ margin: 0 }}>Our 4-step professional process is built for measurable, document-backed results in Kochi homes and businesses.</p>
+            <span className="lp-eyebrow">Professional Treatment Process</span>
+            <h2 className="lp-h2" style={{ margin: '5px 0' }}>Our Integrated Pest Management (IPM) Approach for Kochi</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>A clear 4-step process designed for Kochi homes, flats, shops, and warehouses.</p>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '20px', marginTop: '20px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginTop: '20px' }}>
             <div style={{ background: '#f8fafc', padding: '22px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
               <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>1. Inspection</h4>
-              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>We inspect foundations, wall joints, drainage routes, moisture points, and structural entry paths to identify the exact pest source.</p>
+              <p style={{ margin: 0, fontSize: '0.93rem', color: 'var(--text-slate)', lineHeight: '1.7' }}>We inspect foundations, wall joints, drainage routes, moisture points, and structural entry paths to identify the exact pest source in every room and utility area.</p>
             </div>
             <div style={{ background: '#f8fafc', padding: '22px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
-              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>2. Custom Treatment</h4>
-              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>Treatment is customized to the pest biology, structure type, and risk profile of each property, from odorless cockroach gels to soil barriers for termites.</p>
+              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>2. Identification</h4>
+              <p style={{ margin: 0, fontSize: '0.93rem', color: 'var(--text-slate)', lineHeight: '1.7' }}>We identify the pest species, infestation stage, and entry points so that the treatment is targeted, effective, and avoids unnecessary chemicals.</p>
             </div>
             <div style={{ background: '#f8fafc', padding: '22px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
-              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>3. Safety Audit</h4>
-              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>We review the application area for safety, child-pet handling, ventilation, and post-service readiness before we leave the site.</p>
+              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>3. Treatment Planning</h4>
+              <p style={{ margin: 0, fontSize: '0.93rem', color: 'var(--text-slate)', lineHeight: '1.7' }}>We plan the safest treatment using eco-friendly WHO-approved chemicals, odorless gels, bait stations, steam or thermal solutions, and structural exclusion measures.</p>
             </div>
             <div style={{ background: '#f8fafc', padding: '22px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)' }}>
-              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>4. Warranty</h4>
-              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-slate)', lineHeight: '1.6' }}>We provide documented warranty and AMC guidance so you know exactly what protection your treatment includes after service.</p>
+              <h4 style={{ margin: '0 0 8px 0', color: '#0b253a' }}>4. Regular Monitoring</h4>
+              <p style={{ margin: 0, fontSize: '0.93rem', color: 'var(--text-slate)', lineHeight: '1.7' }}>We follow up at planned intervals, monitor bait stations, inspect treated areas, and update the protection plan until the infestation is fully controlled.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Specialized Service Breakdown */}
+      <section className="kochi-lp-section" style={{ background: '#f8fafc', padding: '40px 0', borderBottom: '1px solid #e2e8f0' }}>
+        <div className="kochi-lp-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '30px' }}>
+            <span className="lp-eyebrow">Specialized Service Breakdown</span>
+            <h2 className="lp-h2" style={{ margin: '5px 0' }}>Detailed Termite, Bed Bug & Rodent Control in Kochi</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>Each pest receives a tailored treatment plan based on property age, structure type, and local Kochi conditions.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px', marginTop: '20px' }}>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)', boxShadow: '0 10px 35px rgba(15, 141, 89, 0.04)' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: '#0b253a' }}>Termite Control (Pre-Construction & Post-Construction)</h3>
+              <p style={{ margin: '0 0 10px 0', color: '#57708b', lineHeight: '1.7' }}>For new buildings and pre-construction sites, we install chemical soil barriers and treated foundation lines before the concrete is poured. For existing flats, villas, and older homes, we use Drill-Fill-Seal soil injections, wall crack treatments, and targeted wood preservation methods to stop active colonies and protect structures.</p>
+              <p style={{ margin: 0, color: '#134e4a', fontWeight: '600' }}>Kochi-specific focus:</p>
+              <p style={{ margin: '6px 0 0 0', color: '#57708b', lineHeight: '1.6' }}>We adapt treatment for coastal humidity and seasonal monsoon moisture that makes older wooden frames and new plastered flats vulnerable to termite tunnels.</p>
+            </div>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)', boxShadow: '0 10px 35px rgba(15, 141, 89, 0.04)' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: '#0b253a' }}>Bed Bug Management</h3>
+              <p style={{ margin: '0 0 10px 0', color: '#57708b', lineHeight: '1.7' }}>We offer both thermal steam treatment and discrete chemical applications depending on infestation severity. Heat treatments eliminate eggs and adults in a single pass, while precision pesticide sprays control hidden nest sites in beds, sofas, and wardrobes.</p>
+              <p style={{ margin: 0, color: '#134e4a', fontWeight: '600' }}>Ideal for Kochi flats and homestays:</p>
+              <p style={{ margin: '6px 0 0 0', color: '#57708b', lineHeight: '1.6' }}>Odourless steam and low-residue sprays make this safe for apartments and guest properties around Lulu Mall, Marine Drive, and Fort Kochi.</p>
+            </div>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '4px solid var(--primary-green)', boxShadow: '0 10px 35px rgba(15, 141, 89, 0.04)' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: '#0b253a' }}>Rodent Control</h3>
+              <p style={{ margin: '0 0 10px 0', color: '#57708b', lineHeight: '1.7' }}>In homes and warehouses, we combine tamper-proof bait stations, snap traps, and structural sealing to eliminate rodents and block their access points. Our plans include sanitation improvements and mechanical exclusions tailored to each property.</p>
+              <p style={{ margin: 0, color: '#134e4a', fontWeight: '600' }}>Best for Kochi buildings near Infopark and riverfront areas:</p>
+              <p style={{ margin: '6px 0 0 0', color: '#57708b', lineHeight: '1.6' }}>We treat common rodent routes in service ducts, basements, and drainage lines used by rats during monsoon flooding.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Termite Treatment Authority */}
+      <section className="kochi-lp-section" style={{ background: '#fff', padding: '60px 0', borderBottom: '1px solid #e2e8f0' }}>
+        <article className="kochi-lp-container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '28px' }}>
+            <span className="lp-eyebrow">Termite Authority</span>
+            <h2 className="lp-h2">Termite Treatment in Kochi: Pre-Construction and Post-Construction</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>Our Kochi termite protection is built for both new foundations and existing homes, using industry-standard soil barriers and drill-and-fill technology.</p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px', marginTop: '30px' }}>
+            <article style={{ background: '#f8fafc', padding: '24px', borderRadius: '16px', borderLeft: '5px solid var(--primary-green)', boxShadow: '0 12px 35px rgba(15, 141, 89, 0.08)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>Pre-Construction Treatment</h3>
+              <p style={{ margin: '0 0 12px 0', color: '#475569', lineHeight: '1.75' }}>Before the foundation is poured, we treat the soil with CIB-approved termiticides like <strong>Fipronil</strong> and <strong>Imidacloprid</strong>. This creates a continuous chemical barrier under the slab and around the foundation, preventing subterranean termites from reaching the superstructure.</p>
+              <ul style={{ margin: '0 0 0 18px', padding: 0, color: '#475569', lineHeight: '1.8' }}>
+                <li>Soil barrier application around foundation trenches.</li>
+                <li>Protection for new villas, flats, commercial buildings, and apartment projects.</li>
+                <li>Ideal for high-risk Kochi areas like Kakkanad and Edappally where monsoon moisture is high.</li>
+                <li>Warranty coverage up to 10 years for pre-construction installations.</li>
+              </ul>
+            </article>
+
+            <article style={{ background: '#f8fafc', padding: '24px', borderRadius: '16px', borderLeft: '5px solid var(--primary-green)', boxShadow: '0 12px 35px rgba(15, 141, 89, 0.08)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>Post-Construction Treatment</h3>
+              <p style={{ margin: '0 0 12px 0', color: '#475569', lineHeight: '1.75' }}>For existing homes, flats, and commercial properties, we use precision <strong>Drill-and-Fill</strong> technology. Technicians drill small holes along walls and flooring joints, inject odorless termiticides into the substrate, then seal the holes neatly with matching cement.</p>
+              <ul style={{ margin: '0 0 0 18px', padding: 0, color: '#475569', lineHeight: '1.8' }}>
+                <li>Targeted injections into wall foundations, door frames, and skirting board joints.</li>
+                <li>Odourless, child-safe and pet-safe formulations for occupied Kochi homes.</li>
+                <li>Effective for older flats, heritage structures, and new buildings with visible termite activity.</li>
+                <li>Detailed post-treatment inspection and monitoring included.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', marginTop: '30px' }}>
+            <aside style={{ background: '#eff6ff', padding: '24px', borderRadius: '16px', borderLeft: '5px solid #2563eb', boxShadow: '0 10px 30px rgba(37, 99, 235, 0.08)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0f172a' }}>Why Kochi Needs Dedicated Termite Protection</h3>
+              <p style={{ margin: 0, color: '#334155', lineHeight: '1.75' }}>Kochi’s humid climate, heavy monsoon rainfall, and traditional use of wood in roof trusses, antique teak furniture, and doors make buildings uniquely vulnerable to termite damage. Local areas such as Kakkanad, Edappally, Vyttila, and Aluva face different structural challenges, from high-rise apartments to riverfront villas.</p>
+            </aside>
+            <aside style={{ background: '#eff6ff', padding: '24px', borderRadius: '16px', borderLeft: '5px solid #2563eb', boxShadow: '0 10px 30px rgba(37, 99, 235, 0.08)' }}>
+              <img src={`${process.env.PUBLIC_URL}/images/termite-treatment-kochi.webp`} alt="termite-treatment-kochi-drill-and-fill-method.webp" style={{ width: '100%', borderRadius: '14px', display: 'block' }} />
+              <p style={{ margin: '14px 0 0 0', color: '#334155', lineHeight: '1.7' }}>Drill-and-Fill termite protection is a proven solution for occupied properties in Kochi, allowing accurate chemical placement without major repairs.</p>
+            </aside>
+          </div>
+        </article>
+      </section>
+
+      {/* Buyer’s Checklist */}
+      <section className="kochi-lp-section" style={{ background: '#f8fafc', padding: '60px 0', borderBottom: '1px solid #e2e8f0' }}>
+        <article className="kochi-lp-container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '28px' }}>
+            <span className="lp-eyebrow">Buyer’s Checklist</span>
+            <h2 className="lp-h2">How to Choose the Best Termite Control Company in Kerala – A Buyer’s Checklist</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>Don't accept generic quotes. Use this checklist to ensure you work with a licensed, qualified pest control specialist.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '22px', marginTop: '24px' }}>
+            <article style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 28px rgba(15, 23, 42, 0.05)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>ISO Certification & Licensing</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>Ensure the company holds ISO certifications and valid Kerala government licensing for insecticide application, especially when treating high-value properties in Kochi’s IT and hospitality corridors.</p>
+            </article>
+            <article style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 28px rgba(15, 23, 42, 0.05)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>Chemical Transparency</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>Ask for exact product names and approvals. A professional provider should mention HACCP, WHO, CIB, or BIS-approved chemicals such as Fipronil and Imidacloprid.</p>
+            </article>
+            <article style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 28px rgba(15, 23, 42, 0.05)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>In-House Trained Technicians</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>Prefer companies with in-house staff rather than daily-wage contract labor. Well-trained technicians deliver consistent quality and better safety controls.</p>
+            </article>
+            <article style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 28px rgba(15, 23, 42, 0.05)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>Physical Inspection Over Phone Quotes</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>A reliable termite quote requires a site inspection. Companies that quote only over the phone are more likely to under-estimate infestation severity.</p>
+            </article>
+          </div>
+          <div style={{ marginTop: '28px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '20px' }}>
+            <article style={{ background: '#eef2ff', padding: '24px', borderRadius: '16px', borderLeft: '5px solid #4338ca' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: '#1e293b' }}>Local Expertise</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>Ensure the team knows Kochi’s neighborhoods like Kakkanad, Edappally, Vyttila, and Aluva, and understands local monsoon pest patterns for humidity-prone flats and riverfront villas.</p>
+            </article>
+            <article style={{ background: '#eef2ff', padding: '24px', borderRadius: '16px', borderLeft: '5px solid #4338ca' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: '#1e293b' }}>Written Warranty</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>Look for written warranty documents, especially for termite treatments. Pre-construction soil barriers may offer up to 10 years, while post-construction barriers typically come with 5 years of coverage.</p>
+            </article>
+          </div>
+        </article>
+      </section>
+
+      {/* Infestation Warning Signs */}
+      <section className="kochi-lp-section" style={{ background: '#fff', padding: '60px 0', borderBottom: '1px solid #e2e8f0' }}>
+        <article className="kochi-lp-container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '28px' }}>
+            <span className="lp-eyebrow">Warning Signs</span>
+            <h2 className="lp-h2">10 Warning Signs of Termite Infestation in Kerala Homes</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>Recognize termite activity early, especially in Kochi homes with wooden roof trusses, antique furniture, and humid interiors.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px', marginTop: '24px' }}>
+            <article style={{ background: '#f8fafc', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 28px rgba(15, 23, 42, 0.04)' }}>
+              <ol style={{ margin: 0, paddingLeft: '20px', color: '#475569', lineHeight: '1.8' }}>
+                <li>Mud tubes on walls or foundations.</li>
+                <li>Hollow-sounding wood or skirting boards.</li>
+                <li>Discarded wings near windows or light sources.</li>
+                <li>Fine wood dust (frass) under furniture.</li>
+                <li>Warped doors, windows, or floorboards.</li>
+                <li>Peeling paint that looks like water damage.</li>
+                <li>Soft spots in wooden beams or rafters.</li>
+                <li>Wooden furniture with tiny pinholes.</li>
+                <li>Increased insect activity after the southwest monsoon.</li>
+                <li>Musty, damp odour inside cupboards or attics.</li>
+              </ol>
+            </article>
+            <article style={{ background: '#eff6ff', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 28px rgba(37, 99, 235, 0.08)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0f172a' }}>Trusted Termite Protection</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.75' }}>If you observe any of these signs, book a professional inspection immediately. Kochi's high humidity and monsoon rainfall can turn a small termite problem into serious structural damage very quickly.</p>
+            </article>
+          </div>
+        </article>
+      </section>
+
+      {/* Trust & Warranty Section */}
+      <section className="kochi-lp-section" style={{ background: '#f8fafc', padding: '60px 0', borderBottom: '1px solid #e2e8f0' }}>
+        <article className="kochi-lp-container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '28px' }}>
+            <span className="lp-eyebrow">Trust & Warranty</span>
+            <h2 className="lp-h2">10-Year Service Warranty & In-House Trained Technicians</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>We deliver local Kochi termite protection with trained technicians and odorless, family-safe applications.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '22px', marginTop: '24px' }}>
+            <article style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '5px solid #16a34a', boxShadow: '0 10px 28px rgba(15, 23, 42, 0.05)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>10-Year Service Warranty</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>We back our pre-construction termite barriers with up to 10 years of warranty coverage, plus 5-year warranties on post-construction Drill-Fill-Seal installations.</p>
+            </article>
+            <article style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '5px solid #16a34a', boxShadow: '0 10px 28px rgba(15, 23, 42, 0.05)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>In-House Trained Technicians</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>Our team is trained in-house and follows strict safety and application standards. We do not rely on unverified contract labor for termite treatments in Kochi.</p>
+            </article>
+            <article style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '5px solid #16a34a', boxShadow: '0 10px 28px rgba(15, 23, 42, 0.05)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>Safe for Kids & Pets</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.7' }}>We use odorless, family-safe chemicals chosen for occupied homes. After treatment, your children and pets can return safely once the area is ventilated.</p>
+            </article>
+          </div>
+        </article>
+      </section>
+
+      {/* Safety & Eco-friendliness */}
+      <section className="kochi-lp-section" style={{ background: '#eff6ff', padding: '40px 0', borderBottom: '1px solid #dbeafe' }}>
+        <div className="kochi-lp-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '30px' }}>
+            <span className="lp-eyebrow">Safe for Kids and Pets</span>
+            <h2 className="lp-h2" style={{ margin: '5px 0' }}>Eco-Friendly Pest Control for Kochi Families</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>We use only government-approved, WHO-recognized chemicals and odorless treatments that protect your family, pets, and guests.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '20px', marginTop: '20px' }}>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '4px solid #2563eb', boxShadow: '0 10px 35px rgba(37, 99, 235, 0.08)' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: '#0f172a' }}>Eco-Friendly Chemicals</h3>
+              <p style={{ margin: 0, color: '#334155', lineHeight: '1.75' }}>Our selected pest control agents are low-toxicity and formulated for children, pets, pregnant women, and the elderly. We avoid harsh odors and use products that meet local safety compliance.</p>
+            </div>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '4px solid #2563eb', boxShadow: '0 10px 35px rgba(37, 99, 235, 0.08)' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: '#0f172a' }}>WHO Approved</h3>
+              <p style={{ margin: 0, color: '#334155', lineHeight: '1.75' }}>We use chemicals and application methods aligned with World Health Organization guidelines, ensuring effective pest control without compromising indoor air quality or occupant health.</p>
+            </div>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', borderLeft: '4px solid #2563eb', boxShadow: '0 10px 35px rgba(37, 99, 235, 0.08)' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: '#0f172a' }}>Odourless Treatment</h3>
+              <p style={{ margin: 0, color: '#334155', lineHeight: '1.75' }}>Our odorless gels, steam treatments, and eco-safe sprays are ideal for Kochi apartments, hotels, and offices where occupants expect clean, smell-free service with minimal disruption.</p>
             </div>
           </div>
         </div>
@@ -745,6 +954,68 @@ function PestControlKochiPage() {
             <div>
               <strong>Verified Reviews</strong>
               <p>Over 4,800 Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Professional Pest Control is Essential in Kochi */}
+      <section className="kochi-lp-section" style={{ background: '#fff', padding: '60px 0', borderBottom: '1px solid #e2e8f0' }}>
+        <div className="kochi-lp-container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '28px' }}>
+            <span className="lp-eyebrow">Kochi Authority</span>
+            <h2 className="lp-h2">Why Professional Pest Control is Essential in Kochi</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>Kochi's coastal climate and high humidity levels make it a breeding ground for pests like termites and cockroaches. Our services are tailored to local landmarks and seasonal conditions.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '20px' }}>
+            <div style={{ background: '#f8fafc', padding: '28px', borderRadius: '16px', borderLeft: '5px solid var(--primary-green)' }}>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.75' }}>
+                Kochi's coastal humidity combined with frequent monsoon rains creates the ideal habitat for termites, cockroaches, rodents, and mosquitoes. Properties near Lulu Mall, Infopark, Marine Drive and airport corridors are especially vulnerable because moisture-laden air, riverfront seepage, and heavy traffic increase pest pressure.
+              </p>
+              <p style={{ margin: '16px 0 0 0', color: '#475569', lineHeight: '1.75' }}>
+                At Eco Pest India, we use specialized local knowledge and Rochi-specific treatment maps to protect flats, villas, restaurants, hotels and warehouses. A professional plan is essential because DIY sprays often miss pest entry routes, hidden nests, and seasonal breeding cycles that are unique to Kochi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Educational Content & Termite Signs */}
+      <section className="kochi-lp-section" style={{ background: '#f8fafc', padding: '60px 0', borderBottom: '1px solid #e2e8f0' }}>
+        <div className="kochi-lp-container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 20px' }}>
+          <div className="section-title-wrap" style={{ textAlign: 'center', marginBottom: '28px' }}>
+            <span className="lp-eyebrow">Educational Content</span>
+            <h2 className="lp-h2">How to Identify Termite Signs in Kerala Homes</h2>
+            <p className="lp-subtitle" style={{ margin: 0 }}>Learn the local signs of infestation, identify early warning symptoms, and understand why professional intervention matters more than DIY treatments.</p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px' }}>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 30px rgba(15, 23, 42, 0.04)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>Signs of Infestation</h3>
+              <ul style={{ margin: 0, paddingLeft: '20px', color: '#475569', lineHeight: '1.8' }}>
+                <li>Hollow-sounding wood in doors, windows, furniture, and ceiling beams.</li>
+                <li>Discarded termite wings near windows, doorways, or light sources.</li>
+                <li>Thin mud tubes along foundation walls, concrete joints, and plumbing lines.</li>
+                <li>Small pin-sized holes or damaged wood grain in cabinets and wooden flooring.</li>
+              </ul>
+            </div>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 30px rgba(15, 23, 42, 0.04)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>Prevention Tips for Kochi</h3>
+              <ul style={{ margin: 0, paddingLeft: '20px', color: '#475569', lineHeight: '1.8' }}>
+                <li>Keep gutters clean and ensure rainwater drains away from the foundation.</li>
+                <li>Seal cracks around doors, windows, and plumbing lines in kitchens and bathrooms.</li>
+                <li>Maintain a dry perimeter around the building by using crushed stone or concrete at the base.</li>
+                <li>Store firewood and building materials away from walls and off the ground.</li>
+              </ul>
+            </div>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '20px', marginTop: '24px' }}>
+            <div style={{ background: '#ffffff', padding: '24px', borderRadius: '16px', boxShadow: '0 10px 30px rgba(15, 23, 42, 0.04)' }}>
+              <h3 style={{ margin: '0 0 14px 0', color: '#0b253a' }}>DIY vs Professional Pest Control</h3>
+              <p style={{ margin: 0, color: '#475569', lineHeight: '1.75' }}>
+                DIY sprays and over-the-counter powders may temporarily reduce visible pests, but they rarely address the source. Professional pest control uses inspection, targeted treatment planning, and follow-up monitoring to eliminate colonies and prevent recurrence in Kochi's humid climate.</p>
+              <p style={{ margin: '12px 0 0 0', color: '#475569', lineHeight: '1.75' }}>
+                For persistent infestations near landmarks such as Lulu Mall, Infopark, or Fort Kochi, a professional service is the safer choice. It avoids ineffective home treatments that can leave behind active eggs, hidden nests, and untreated entry points.
+              </p>
             </div>
           </div>
         </div>
